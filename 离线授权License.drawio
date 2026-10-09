@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="DYyHjUukmjQ-_lUldZ7d">
-    <mxGraphModel dx="1952" dy="1126" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1132" dy="653" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry height="243" width="254" x="400.5" y="548" as="geometry" />
+        </mxCell>
         <mxCell id="y2r0Fe7vwQDp8iNzU7un-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="138" width="304" x="354" y="308" as="geometry" />
         </mxCell>
@@ -14,22 +17,64 @@
           <mxGeometry height="30" width="60" x="411" y="325" as="geometry" />
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c5e3ed, #ededed);" value="" vertex="1">
-          <mxGeometry height="315" width="660" x="786" y="445" as="geometry" />
+          <mxGeometry height="243" width="668" x="783" y="548" as="geometry" />
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fbd7bb, #ededed);" value="" vertex="1">
-          <mxGeometry height="172" width="654" x="786" y="217" as="geometry" />
+          <mxGeometry height="147" width="665" x="783" y="377" as="geometry" />
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#D095BB,#EDEDED);" value="" vertex="1">
-          <mxGeometry height="172" width="654" x="786" y="821" as="geometry" />
+          <mxGeometry height="120" width="665" x="786" y="826" as="geometry" />
         </mxCell>
-        <mxCell id="qw40EMJvnEpHA0dgnW2z-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="硬件 RK3588" vertex="1">
-          <mxGeometry height="30" width="115" x="1559" y="908" as="geometry" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-6" edge="1" parent="1" source="qw40EMJvnEpHA0dgnW2z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QtbDxPD-xTB5P9gMMe5o-2" value="读取Chip ID">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qw40EMJvnEpHA0dgnW2z-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License 存储区" vertex="1">
-          <mxGeometry height="60" width="120" x="1034" y="889" as="geometry" />
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;OTP&lt;/b&gt;&lt;div&gt;芯片标识Chip ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="163" x="901.5" y="848" as="geometry" />
         </mxCell>
-        <mxCell id="qw40EMJvnEpHA0dgnW2z-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OTP&lt;div&gt;OTPOTP新[OTPOTP新[新&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="597" y="794" as="geometry" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;eMMC&lt;/b&gt;&lt;/div&gt;License 存储区" vertex="1">
+          <mxGeometry height="60" width="158" x="1194" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-13" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QtbDxPD-xTB5P9gMMe5o-8" value="设备申请JOSN">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License申请&lt;br&gt;&lt;/b&gt;根据Chip ID生成设备申请" vertex="1">
+          <mxGeometry height="60" width="158" x="904" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-12" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;endArrow=none;endFill=0;" target="QtbDxPD-xTB5P9gMMe5o-8" value="License">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-16" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="QtbDxPD-xTB5P9gMMe5o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License导入与校验&lt;/b&gt;&lt;br&gt;公钥验签 + 设备匹配&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="158" x="906.5" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-17" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="QtbDxPD-xTB5P9gMMe5o-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-18" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="QtbDxPD-xTB5P9gMMe5o-1" value="读写">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License持久化存储&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="1194" y="707" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;授权与客户OS操作门禁&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="158" x="1194" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License签发工具&lt;/b&gt;&lt;div&gt;厂商私钥 + ES256签名&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="143" x="456" y="644.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="这里ES256是啥?" vertex="1">
+          <mxGeometry height="30" width="171" x="423" y="831" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="客户OS" vertex="1">
+          <mxGeometry height="63.5" width="445.5" x="906.5" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-23" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.823;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" target="QtbDxPD-xTB5P9gMMe5o-19" value="授权许可">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ARMv8 硬件 RK3588&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="38" width="209" x="1269" y="918" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
