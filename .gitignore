@@ -1,0 +1,4 @@
+*.bkp
+*.drawio.bkp
+.~lock.*#
+.DS_Store
