@@ -1,83 +1,83 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="DYyHjUukmjQ-_lUldZ7d">
-    <mxGraphModel dx="964" dy="787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="543" dy="144" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
-          <mxGeometry height="243" width="254" x="400.5" y="548" as="geometry" />
+          <mxGeometry height="261" width="238" x="498" y="553" as="geometry" />
         </mxCell>
-        <mxCell id="qw40EMJvnEpHA0dgnW2z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c5e3ed, #ededed);labelBackgroundColor=none;" value="" vertex="1">
-          <mxGeometry height="243" width="668" x="783" y="548" as="geometry" />
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c5e3ed, #ededed);labelBackgroundColor=light-dark(#c5e3ed, #ededed);" value="" vertex="1">
+          <mxGeometry height="266" width="669" x="845" y="548" as="geometry" />
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fbd7bb, #ededed);" value="" vertex="1">
-          <mxGeometry height="147" width="665" x="783" y="377" as="geometry" />
+          <mxGeometry height="123" width="669" x="845" y="400" as="geometry" />
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#D095BB,#EDEDED);" value="" vertex="1">
-          <mxGeometry height="115" width="665" x="783.25" y="812" as="geometry" />
+          <mxGeometry height="90" width="669" x="845" y="836" as="geometry" />
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-6" edge="1" parent="1" source="qw40EMJvnEpHA0dgnW2z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;align=center;verticalAlign=middle;labelBackgroundColor=default;strokeColor=light-dark(#ff0505, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-2" value="①读取Chip ID">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-6" edge="1" parent="1" source="qw40EMJvnEpHA0dgnW2z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;fontStyle=0;align=center;verticalAlign=middle;labelBackgroundColor=default;strokeColor=light-dark(#ff0505, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-2" value="①读取Chip ID">
+          <mxGeometry relative="1" x="-0.2341" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qw40EMJvnEpHA0dgnW2z-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;OTP&lt;/b&gt;&lt;div&gt;芯片标识Chip ID&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="163" x="901.5" y="831" as="geometry" />
+          <mxGeometry height="60" width="158" x="890" y="850" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;eMMC&lt;/b&gt;&lt;/div&gt;License 存储区" vertex="1">
-          <mxGeometry height="60" width="158" x="1194" y="831" as="geometry" />
+          <mxGeometry height="60" width="159" x="1110" y="850" as="geometry" />
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-13" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-8" value="②设备申请JSON">
-          <mxGeometry relative="1" x="0.0025" as="geometry">
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-13" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-8" value="&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;②提交授权申请&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.324" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License申请&lt;br&gt;&lt;/b&gt;根据Chip ID生成设备申请" vertex="1">
-          <mxGeometry height="60" width="158" x="904" y="707" as="geometry" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License申请&lt;br&gt;&lt;/b&gt;根据Chip ID生成授权申请" vertex="1">
+          <mxGeometry height="70" width="158" x="890" y="717" as="geometry" />
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-12" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endFill=0;" target="QtbDxPD-xTB5P9gMMe5o-8" value="③离线导入License">
-          <mxGeometry relative="1" x="-0.0012" as="geometry">
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-12" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;labelBackgroundColor=default;startArrow=classic;startFill=1;endFill=0;dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-8" value="③发放授权许可证">
+          <mxGeometry relative="1" x="-0.3205" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-16" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;labelBackgroundColor=light-dark(#c5e3ed, #ededed);strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-4" value="④验证通过">
-          <mxGeometry relative="1" x="0.0021" as="geometry">
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-76" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#ff0505, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#FF0000;fontStyle=0;labelBackgroundColor=light-dark(#bbe3ed, #ededed);endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-75" value="④许可证">
+          <mxGeometry relative="1" x="-0.1949" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License导入与校验&lt;/b&gt;&lt;br&gt;公钥验签 + 设备匹配&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="158" x="906.5" y="593" as="geometry" />
-        </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-17" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;verticalAlign=middle;labelBackgroundColor=light-dark(#c5e3ed, #ededed);strokeColor=light-dark(#ff0505, #ededed);endArrow=classic;fontStyle=0;" target="QtbDxPD-xTB5P9gMMe5o-5" value="⑤授权生效">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License导入&lt;/b&gt;&lt;br&gt;用户手动导入License" vertex="1">
+          <mxGeometry height="70" width="158" x="890" y="593" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-18" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;" target="QtbDxPD-xTB5P9gMMe5o-1" value="读写">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" x="0.2175" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-85" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#EDEDED);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=light-dark(#c5e3ed, #ededed);endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-75" value="读取复验">
+          <mxGeometry relative="1" x="-0.0166" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License持久化存储&lt;/b&gt;&lt;div&gt;重启后自动校验并恢复授权&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="158" x="1194" y="707" as="geometry" />
-        </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;授权执行控制&lt;/b&gt;&lt;div&gt;仅允许授权设备执行客户OS&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="158" x="1194" y="593" as="geometry" />
+          <mxGeometry height="70" width="159" x="1110" y="717" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License签发工具&lt;/b&gt;&lt;div&gt;ES256 + 私钥签名&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="143" x="456" y="644.5" as="geometry" />
+          <mxGeometry height="70" width="158" x="537.5" y="650" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;客户OS&lt;/b&gt;" vertex="1">
-          <mxGeometry height="63.5" width="445.5" x="906.5" y="416" as="geometry" />
-        </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-23" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.823;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-19" value="⑥允许执行">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry height="70" width="483" x="938" y="426.5" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-24" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ARMv8 硬件 RK3588&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="38" width="209" x="1267" y="894" as="geometry" />
+          <mxGeometry height="38" width="209" x="1330" y="898" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-25" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ZVM&lt;br&gt;&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="38" width="60" x="1389" y="760" as="geometry" />
+          <mxGeometry height="38" width="60" x="1458" y="784" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;客户OS&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="38" width="74" x="1374" y="492" as="geometry" />
+          <mxGeometry height="38" width="74" x="1440" y="491" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-27" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ZVM技术团队&lt;/h1&gt;" vertex="1">
-          <mxGeometry height="38" width="132" x="532" y="760" as="geometry" />
+          <mxGeometry height="38" width="132" x="609" y="780.5" as="geometry" />
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
           <mxGeometry height="243" width="254" x="417" y="1393" as="geometry" />
@@ -100,15 +100,15 @@
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;eMMC&lt;/b&gt;&lt;/div&gt;License 存储区" vertex="1">
           <mxGeometry height="67" width="189" x="1173" y="1676" as="geometry" />
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-36" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-45" value="②设备申请JSON">
-          <mxGeometry relative="1" x="-0.1056" as="geometry">
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-36" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-45" value="②设备申请JSON">
+          <mxGeometry relative="1" x="-0.1051" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License申请&lt;br&gt;&lt;/b&gt;根据Chip ID生成设备申请" vertex="1">
           <mxGeometry height="74" width="189" x="889" y="1538" as="geometry" />
         </mxCell>
-        <mxCell id="QtbDxPD-xTB5P9gMMe5o-38" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endFill=0;" target="QtbDxPD-xTB5P9gMMe5o-45" value="③离线导入License">
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-38" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endFill=0;dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-45" value="③离线导入License">
           <mxGeometry relative="1" x="-0.0961" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -153,6 +153,120 @@
         </mxCell>
         <mxCell id="QtbDxPD-xTB5P9gMMe5o-51" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ZVM技术团队&lt;/h1&gt;" vertex="1">
           <mxGeometry height="38" width="132" x="548.5" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="" vertex="1">
+          <mxGeometry height="243" width="254" x="1823" y="1393" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c5e3ed, #ededed);labelBackgroundColor=none;" value="" vertex="1">
+          <mxGeometry height="243" width="668" x="2189" y="1393" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fbd7bb, #ededed);" value="" vertex="1">
+          <mxGeometry height="123" width="665" x="2189" y="1246" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#D095BB,#EDEDED);" value="" vertex="1">
+          <mxGeometry height="115" width="665" x="2189.25" y="1657" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-56" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;align=center;verticalAlign=middle;labelBackgroundColor=default;strokeColor=light-dark(#ff0505, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-60" value="&lt;div&gt;①提供Chip ID&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;OTP&lt;/b&gt;&lt;div&gt;芯片标识Chip ID&lt;/div&gt;" vertex="1">
+          <mxGeometry height="67" width="189" x="2295" y="1676" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;eMMC&lt;/b&gt;&lt;/div&gt;License 存储区" vertex="1">
+          <mxGeometry height="67" width="189" x="2579" y="1676" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-59" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-68" value="②设备申请JSON">
+          <mxGeometry relative="1" x="-0.1051" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License申请&lt;br&gt;&lt;/b&gt;根据Chip ID生成设备申请" vertex="1">
+          <mxGeometry height="74" width="189" x="2295" y="1538" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-61" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startArrow=classic;startFill=1;endFill=0;dashed=1;" target="QtbDxPD-xTB5P9gMMe5o-68" value="③离线导入License">
+          <mxGeometry relative="1" x="-0.0961" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-62" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;labelBackgroundColor=light-dark(#c5e3ed, #ededed);strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-66" value="④验证通过">
+          <mxGeometry relative="1" x="0.0021" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License导入与校验&lt;/b&gt;&lt;br&gt;公钥验签 + 设备匹配&amp;nbsp;" vertex="1">
+          <mxGeometry height="74" width="189" x="2298" y="1418" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-64" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;verticalAlign=middle;labelBackgroundColor=light-dark(#c5e3ed, #ededed);strokeColor=light-dark(#ff0505, #ededed);endArrow=classic;fontStyle=0;" target="QtbDxPD-xTB5P9gMMe5o-67" value="⑤授权生效">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-65" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeWidth=2;" target="QtbDxPD-xTB5P9gMMe5o-58" value="读写">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License持久化存储&lt;/b&gt;&lt;div&gt;重启后自动校验并恢复授权&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="189" x="2579" y="1538" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;授权执行控制&lt;/b&gt;&lt;div&gt;仅允许授权设备执行客户OS&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="189" x="2579" y="1418" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License签发工具&lt;/b&gt;&lt;div&gt;ES256 + 私钥签名&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="179" x="1860.5" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;客户OS&lt;/b&gt;" vertex="1">
+          <mxGeometry height="74" width="455.5" x="2298" y="1266.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-70" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.823;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;strokeColor=light-dark(#ff0505, #ededed);align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-69" value="⑥允许执行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-71" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ARMv8 硬件 RK3588&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="38" width="209" x="2673" y="1743" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-72" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ZVM&lt;br&gt;&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="38" width="60" x="2795" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-73" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;客户OS&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="38" width="74" x="2780" y="1337" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-74" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ZVM技术团队&lt;/h1&gt;" vertex="1">
+          <mxGeometry height="38" width="132" x="1954.5" y="1605" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-77" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#ff0505, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1315" y="623" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-90" connectable="0" parent="QtbDxPD-xTB5P9gMMe5o-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=light-dark(#c5e3ed, #ededed);fontColor=light-dark(#ff0000, #ededed);" value="⑤校验结果" vertex="1">
+          <mxGeometry relative="1" x="-0.1145" y="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-84" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#EDEDED);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=light-dark(#c5e3ed, #ededed);endArrow=classic;" target="QtbDxPD-xTB5P9gMMe5o-4" value="通过校验,保存">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;License校验&lt;/b&gt;&lt;br&gt;公钥验签 + 设备匹配&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="158" x="1110.5" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-80" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=light-dark(#ff0505, #ededed);strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;fontStyle=0;labelBackgroundColor=default;endArrow=classic;">
+          <mxGeometry relative="1" x="0.0493" as="geometry">
+            <mxPoint x="1394.0000000000002" y="588" as="sourcePoint" />
+            <mxPoint x="1402" y="497.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-95" connectable="0" parent="QtbDxPD-xTB5P9gMMe5o-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="是: 允许操作客户OS" vertex="1">
+          <mxGeometry relative="1" x="0.2465" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="需完成授权后才能使用" vertex="1">
+          <mxGeometry height="57" width="127" x="1339" y="723.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-96" edge="1" parent="1" source="QtbDxPD-xTB5P9gMMe5o-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;labelBackgroundColor=light-dark(#bbe3ed, #ededed);" target="QtbDxPD-xTB5P9gMMe5o-83" value="否: 阻止操作客户OS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-89" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="判断许可证是否有效" vertex="1">
+          <mxGeometry height="70" width="116" x="1344.5" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="QtbDxPD-xTB5P9gMMe5o-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;授权执行控制&lt;/b&gt;&lt;div&gt;仅允许授权设备执行客户OS&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="158" x="1671" y="714" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
