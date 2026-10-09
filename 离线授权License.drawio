@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="DYyHjUukmjQ-_lUldZ7d">
+    <mxGraphModel dx="1952" dy="1126" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y2r0Fe7vwQDp8iNzU7un-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="138" width="304" x="354" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="y2r0Fe7vwQDp8iNzU7un-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ES256 +&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;私钥&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="163" x="414" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="y2r0Fe7vwQDp8iNzU7un-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="签发工具" vertex="1">
+          <mxGeometry height="30" width="60" x="411" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#c5e3ed, #ededed);" value="" vertex="1">
+          <mxGeometry height="315" width="660" x="786" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fbd7bb, #ededed);" value="" vertex="1">
+          <mxGeometry height="172" width="654" x="786" y="217" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#D095BB,#EDEDED);" value="" vertex="1">
+          <mxGeometry height="172" width="654" x="786" y="821" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="硬件 RK3588" vertex="1">
+          <mxGeometry height="30" width="115" x="1559" y="908" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License 存储区" vertex="1">
+          <mxGeometry height="60" width="120" x="1034" y="889" as="geometry" />
+        </mxCell>
+        <mxCell id="qw40EMJvnEpHA0dgnW2z-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OTP&lt;div&gt;OTPOTP新[OTPOTP新[新&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="597" y="794" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
